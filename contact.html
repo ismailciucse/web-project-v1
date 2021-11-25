@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+	<link rel="icon" href="images/favicon.ico">
+   <!-- Site Title-->
+    <title>Restaurant Website</title>
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+           <!-- Logo -->
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+           <!-- Main Menu -->
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- Contact Section Starts Here -->
+    <section class="contact">
+        <div class="container">
+            
+            <h2 class="text-center">Get in touch</h2>
+			<div class="heading-border"></div>
+            <form action="" method="POST" class="contact-form">
+               
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <div class="contact-label">Full Name</div>
+                    <input type="text" name="name" placeholder="Enter your name..." class="input-responsive" required>
+					
+                    <div class="contact-label">Email</div>
+                    <input type="email" name="email" placeholder="Enter your email..." class="input-responsive" required>
+
+                    <div class="contact-label">Phone Number</div>
+                    <input type="tel" name="phone" placeholder="Enter your phone..." class="input-responsive" required>
+
+                    <div class="contact-label">Subject</div>
+                    <input type="text" name="subject" placeholder="Enter your subject..." class="input-responsive" required>
+
+                    <div class="contact-label">Message</div>
+                    <textarea name="message" rows="5" placeholder="Enter your message..." class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Submit" class="btn btn-secondary">
+                </fieldset>
+
+            </form>
+			
+        </div>
+    </section>
+    <!-- Contact Section Ends Here -->
+	
+	<!-- Map Start Here -->
+	<section class="Map">
+		<h2 class="text-center">Find us</h2>
+		<div class="heading-border"></div>
+		<div class="mapouter">
+			<div class="gmap_canvas">
+				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Chittagogn,%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+			</div>
+		</div>
+	</section>
+	<!-- Map End Here-->
+
+    <!-- Footer Section Start Here -->
+    <section class="footer">
+        <div class="container">
+            <div class="box-3 text-center">
+                <h3>About Us</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloribus, consequatur, reprehenderit veniam laborum, esse aliquam obcaecati magni explicabo iusto labore accusamus. Vel, optio, nisi at unde adipisci aspernatur deleniti!</p>
+            </div>
+            <div class="box-3 text-center">
+                <h3>Site Map</h3>
+                <br>
+                <div class="site-links">
+                    <a href="categories.html">Categories</a>
+                    <a href="foods.html">Foods</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <div class="box-3 text-center">
+                <h3>Social Links</h3>
+                <br>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End Here -->
+
+    <!-- Copyright Section Starts Here -->
+    <section class="copyright">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#"><b>Md. Ismail</b></a></p>
+        </div>
+    </section>
+    <!-- Copyright Section Ends Here -->
+
+</body>
+</html>

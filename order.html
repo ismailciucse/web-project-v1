@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+	<link rel="icon" href="images/favicon.ico">
+   <!-- Site Title-->
+    <title>Restaurant Website</title>
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+           <!-- Logo -->
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+           <!-- Main Menu -->
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- Food Order Section Starts Here -->
+    <section class="order">
+        <div class="container">
+            
+            <h2 class="text-center">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order-form">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/food/p2.jpg" alt="" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Pizza</h3>
+                        <p class="food-price">$2.3</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="Enter your name..." class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="Enter your phone..." class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="Enter your email..." class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="5" placeholder="Enter your address..." class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- Food Order Section Ends Here -->
+
+    <!-- Footer Section Start Here -->
+    <section class="footer">
+        <div class="container">
+            <div class="box-3 text-center">
+                <h3>About Us</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloribus, consequatur, reprehenderit veniam laborum, esse aliquam obcaecati magni explicabo iusto labore accusamus. Vel, optio, nisi at unde adipisci aspernatur deleniti!</p>
+            </div>
+            <div class="box-3 text-center">
+                <h3>Site Map</h3>
+                <br>
+                <div class="site-links">
+                    <a href="categories.html">Categories</a>
+                    <a href="foods.html">Foods</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <div class="box-3 text-center">
+                <h3>Social Links</h3>
+                <br>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End Here -->
+
+    <!-- Copyright Section Starts Here -->
+    <section class="copyright">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#"><b>Md. Ismail</b></a></p>
+        </div>
+    </section>
+    <!-- Copyright Section Ends Here -->
+
+</body>
+</html>
